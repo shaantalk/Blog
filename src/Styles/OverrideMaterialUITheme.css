@@ -1,0 +1,16 @@
+.MuiAppBar-colorPrimary {
+  background-color: var(--color-navBar) !important;
+}
+
+.MuiButton-containedPrimary {
+  background-color: var(--color-button) !important;
+}
+
+.MuiDrawer-root .MuiPaper-root {
+  background-color: var(--color-sidebar-background) !important;
+  color: var(--color-gray-1) !important;
+}
+
+.makeStyles-drawerHeader-7 button {
+  color: var(--color-gray-1) !important;
+}

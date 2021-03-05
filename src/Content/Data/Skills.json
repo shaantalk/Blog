@@ -1,0 +1,27 @@
+[
+    {
+        "name":"Python",
+        "icon":"python",
+        "percent":"90"
+    },
+    {
+        "name":"Javascript",
+        "icon":"javascript",
+        "percent":"70"
+    },
+    {
+        "name":"React JS",
+        "icon":"react",
+        "percent":"80"
+    },
+    {
+        "name":"Bootstrap",
+        "icon":"bootstrap",
+        "percent":"90"
+    },
+    {
+        "name":"Firebase",
+        "icon":"firebase",
+        "percent":"50"
+    }
+]

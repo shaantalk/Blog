@@ -1,0 +1,16 @@
+.divContainer404 {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  color: var(--color-gray-3);
+}
+
+.div404 {
+  min-width: 400px !important;
+  min-height: 300px !important;
+  background-image: url("../Content/Assets/programmer-3.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

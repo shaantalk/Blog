@@ -1,0 +1,23 @@
+[
+    {
+        "title":"Deluminator",
+        "url":"https://github.com/shaantalk/Deluminator",
+        "techs":["javascript","django"],
+        "date":"January 1, 2021",
+        "description":"This website is my attempt of giving back what I learned to newcomers. I believe that there are too many conflicting articles on certain topics related to technologies which very easily can confuse a new comer. I want to guide them to the best of my knowledge."
+    },
+    {
+        "title":"Covid 19 Tracker",
+        "url":"https://github.com/shaantalk/covid19tracker",
+        "techs":["javascript","react"],
+        "date":"April 26, 2020",
+        "description":"An app for tracking covid data that are available online from free APIs"
+    },
+    {
+        "title":"Mini Portfolio",
+        "url":"https://github.com/shaantalk/miniportfolio",
+        "techs":["html","bootstrap"],
+        "date":"April 26, 2020",
+        "description":"Small single page portfolio website. This website is fully responsive and also supports dark mode for chrome and Apple ecosystem."
+    }
+]    
