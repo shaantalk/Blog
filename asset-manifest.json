@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/deluminator/static/css/main.9d6858b9.chunk.css",
+    "main.js": "/deluminator/static/js/main.55944d3b.chunk.js",
+    "main.js.map": "/deluminator/static/js/main.55944d3b.chunk.js.map",
+    "runtime-main.js": "/deluminator/static/js/runtime-main.1430af96.js",
+    "runtime-main.js.map": "/deluminator/static/js/runtime-main.1430af96.js.map",
+    "static/js/2.70b2b96b.chunk.js": "/deluminator/static/js/2.70b2b96b.chunk.js",
+    "static/js/2.70b2b96b.chunk.js.map": "/deluminator/static/js/2.70b2b96b.chunk.js.map",
+    "static/js/3.22d4c9e4.chunk.js": "/deluminator/static/js/3.22d4c9e4.chunk.js",
+    "static/js/3.22d4c9e4.chunk.js.map": "/deluminator/static/js/3.22d4c9e4.chunk.js.map",
+    "index.html": "/deluminator/index.html",
+    "static/css/main.9d6858b9.chunk.css.map": "/deluminator/static/css/main.9d6858b9.chunk.css.map",
+    "static/js/2.70b2b96b.chunk.js.LICENSE.txt": "/deluminator/static/js/2.70b2b96b.chunk.js.LICENSE.txt",
+    "static/media/Hero.css": "/deluminator/static/media/favicon.5e2f21b7.png",
+    "static/media/bootstrap.d87c3aa1.png": "/deluminator/static/media/bootstrap.d87c3aa1.png",
+    "static/media/css.c0d58b03.svg": "/deluminator/static/media/css.c0d58b03.svg",
+    "static/media/django.da80333a.png": "/deluminator/static/media/django.da80333a.png",
+    "static/media/firebase.d9a39c02.png": "/deluminator/static/media/firebase.d9a39c02.png",
+    "static/media/git.a63f9eab.svg": "/deluminator/static/media/git.a63f9eab.svg",
+    "static/media/googleCloud.a09d9749.png": "/deluminator/static/media/googleCloud.a09d9749.png",
+    "static/media/graphql.372310e5.svg": "/deluminator/static/media/graphql.372310e5.svg",
+    "static/media/html.bf6bb1c2.svg": "/deluminator/static/media/html.bf6bb1c2.svg",
+    "static/media/javascript.f99730b4.svg": "/deluminator/static/media/javascript.f99730b4.svg",
+    "static/media/materialui.5b2d8a0a.png": "/deluminator/static/media/materialui.5b2d8a0a.png",
+    "static/media/nodejs.59c00966.svg": "/deluminator/static/media/nodejs.59c00966.svg",
+    "static/media/postgresql.6174db8b.svg": "/deluminator/static/media/postgresql.6174db8b.svg",
+    "static/media/404.css": "/deluminator/static/media/programmer-3.a00420d9.gif",
+    "static/media/python.4ae0ca08.png": "/deluminator/static/media/python.4ae0ca08.png",
+    "static/media/react.81db2bfe.svg": "/deluminator/static/media/react.81db2bfe.svg",
+    "static/media/vscode.f8f6eda9.svg": "/deluminator/static/media/vscode.f8f6eda9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1430af96.js",
+    "static/js/2.70b2b96b.chunk.js",
+    "static/css/main.9d6858b9.chunk.css",
+    "static/js/main.55944d3b.chunk.js"
+  ]
+}
