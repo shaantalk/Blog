@@ -1,3 +1,1 @@
-This website is my attempt of giving back what I learned to newcomers.
-
-It is named "Deluminator" after the magical device in Harry Potter films that acted as a guide, leading Ron back to Harry and Hermione after he left them following an argument.
+A website where writters can add markdowns that can be public or private. They can tag posts in topics. Readers can read all the public blogs available.
