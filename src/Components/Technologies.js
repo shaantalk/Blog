@@ -16,6 +16,7 @@ import {
   // Backend
   nodejs,
   expressjs,
+  socketio,
   // mongodb,
   postgresql,
   // firebase,
@@ -59,6 +60,7 @@ const frontEnd = [
 const backEnd = [
   { title: "Node.js", svg: nodejs, href: "https://nodejs.org/" },
   { title: "Express.js", svg: expressjs, href: "https://expressjs.com/" },
+  { title: "Socket.io", svg: socketio, href: "https://socket.io/" },
   // { title: "MongoDB", svg: mongodb, href: "https://www.mongodb.com" },
   { title: "PostgreSQL", svg: postgresql, href: "https://www.postgresql.org" },
   // { title: "Firebase", svg: firebase, href: "https://firebase.google.com/" },
