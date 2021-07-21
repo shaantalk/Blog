@@ -5,27 +5,30 @@ import {
   // Frontend
   javascript,
   react,
-  // redux,
-  graphql,
-  css,
+  redux,
+  // graphql,
+  // css,
+  html,
   // sass,
   materialui,
   bootstrap,
   // typescript,
   // Backend
   nodejs,
+  expressjs,
   // mongodb,
   postgresql,
-  firebase,
+  // firebase,
   python,
   django,
-  // Docker
-  // docker,
+  docker,
+  webpack,
   // aws,
-  vscode,
+  // vscode,
   git,
   // ubuntu,
   googleCloud,
+  postman
 } from "../Helpers/Svgs";
 
 const frontEnd = [
@@ -35,13 +38,14 @@ const frontEnd = [
     href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
   { title: "React", svg: react, href: "https://www.reactjs.org" },
-  // { title: "Redux", svg: redux, href: "https://redux.js.org/" },
-  { title: "GraphQL", svg: graphql, href: "https://graphql.org/" },
-  {
-    title: "CSS",
-    svg: css,
-    href: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-  },
+  { title: "Redux", svg: redux, href: "https://redux.js.org/" },
+  // { title: "GraphQL", svg: graphql, href: "https://graphql.org/" },
+  // {
+  //   title: "CSS",
+  //   svg: css,
+  //   href: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+  // },
+  { title: "Html", svg: html, href: "https://html.spec.whatwg.org/" },
   // { title: "Sass", svg: sass, href: "https://sass-lang.com/" },
   { title: "Material UI", svg: materialui, href: "https://material-ui.com/" },
   { title: "Bootstrap", svg: bootstrap, href: "https://getbootstrap.com/" },
@@ -54,24 +58,23 @@ const frontEnd = [
 
 const backEnd = [
   { title: "Node.js", svg: nodejs, href: "https://nodejs.org/" },
+  { title: "Express.js", svg: expressjs, href: "https://expressjs.com/" },
   // { title: "MongoDB", svg: mongodb, href: "https://www.mongodb.com" },
   { title: "PostgreSQL", svg: postgresql, href: "https://www.postgresql.org" },
-  { title: "Firebase", svg: firebase, href: "https://firebase.google.com/" },
+  // { title: "Firebase", svg: firebase, href: "https://firebase.google.com/" },
   { title: "Python", svg: python, href: "https://www.python.org/" },
   { title: "Django", svg: django, href: "https://www.djangoproject.com/" },
 ];
 
 const tools = [
-  // { title: "Docker", svg: docker, href: "https://www.docker.com" },
+  { title: "Docker", svg: docker, href: "https://www.docker.com" },
+  { title: "WebPack", svg: webpack, href: "https://webpack.js.org/" },
   // { title: "AWS", svg: aws, href: "https://aws.amazon.com/" },
   { title: "Git", svg: git, href: "https://git-scm.com/" },
   // { title: "Ubuntu", svg: ubuntu, href: "https://ubuntu.com/" },
-  { title: "VS Code", svg: vscode, href: "https://code.visualstudio.com/" },
-  {
-    title: "gCloud",
-    svg: googleCloud,
-    href: "https://cloud.google.com/",
-  },
+  // { title: "VS Code", svg: vscode, href: "https://code.visualstudio.com/" },
+  {title: "gCloud",svg: googleCloud, href: "https://cloud.google.com/"},
+  {title: "Postman",svg: postman, href: "https://www.postman.com/"},
 ];
 
 const createTechnology = ({ title, svg, href }) => (
@@ -96,10 +99,10 @@ const Technologies = () => {
   }, []);
 
   return (
-    <div className='technologies'>
-      <h1 className='technologies__title'>
-        Technologies covered in the blogs and projects
-      </h1>
+    <section className='technologies'>
+      <h2 className='technologies__title'>
+        Technologies I have worked on
+      </h2>
       <div className='technologies-centered'>
         <h3>Front End</h3>
         <div className='technologies__row'>
@@ -116,7 +119,7 @@ const Technologies = () => {
         <h3>DevOps & Tools</h3>
         <div className='technologies__row'>{tools.map(createTechnology)}</div>
       </div>
-    </div>
+    </section>
   );
 };
 

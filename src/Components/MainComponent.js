@@ -1,11 +1,10 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import { makeStyles } from "@material-ui/core";
-// import { HomePage } from "../Pages/HomePage";
 import HomePage from "../Pages/HomePage";
 import Projects from "../Pages/Projects";
-import Blogs from "../Pages/Blogs";
-import MarkdownRenderer from "../Components/MardownRenderer";
+// import Blogs from "../Pages/Blogs";
+// import MarkdownRenderer from "../Components/MardownRenderer";
 import Page404 from "../Pages/Page404";
 
 const userStyles = makeStyles(theme => ({
@@ -35,14 +34,14 @@ export default function MainComponent() {
         <Route exact path='/projects'>
           <Projects />
         </Route>
-        <Route exact path='/blogs'>
+        {/* <Route exact path='/blogs'>
           <Blogs />
         </Route>
         <Route
           exact
           path='/blog/:id'
           render={props => <MarkdownRenderer {...props} />}
-        />
+        /> */}
         <Route component={Page404} />
       </Switch>
     </main>
