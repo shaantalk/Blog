@@ -14,6 +14,7 @@ import bootstrap from "../Content/Assets/bootstrap.png";
 // backend
 import nodejs from "../Content/Assets/nodejs.svg";
 import expressjs from "../Content/Assets/expressjs.svg";
+import socketio from "../Content/Assets/socketio.svg";
 // import ruby from "../Content/Assets/ruby.svg";
 // import rails from "../Content/Assets/rails.svg";
 // import elixir from "../Content/Assets/elixir.svg";
@@ -54,6 +55,7 @@ export {
   // Backend ............................................
   nodejs,
   expressjs,
+  socketio,
   // ruby,
   // rails,
   // elixir,

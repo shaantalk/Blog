@@ -38,7 +38,7 @@ export default function NavBar(props) {
           edge={false}
           color='inherit'
           aria-label='mode'
-          onClick={toggleDarkState.bind(undefined)}
+          onClick={() => toggleDarkState()}
         >
           {darkState ? <LightIcon /> : <DarkIcon />}
         </IconButton>

@@ -45,7 +45,12 @@ const Projects = () => {
       <Loader />
     </div>
   ) : (
-    <div className='project-list'>
+    <section className='project-list'>
+      <div style={{textAlign: "center"}}>
+        <h2 className='projects__title'>
+          Projects I have worked on
+        </h2>
+      </div>
       {projects.map((project, idx) => {
         let title = project.title;
         let techs = project.techs;
@@ -78,7 +83,7 @@ const Projects = () => {
           </div>
         );
       })}
-    </div>
+    </section>
   );
 };
 

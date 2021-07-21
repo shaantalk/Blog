@@ -1,14 +1,24 @@
 [
     {
-        "title":"Deluminator",
-        "url":"https://github.com/shaantalk/Deluminator",
-        "techs":["javascript","django"],
+        "title":"Chatofficial",
+        "url":"https://chatofficial.herokuapp.com/",
+        "gitHubLink": "",
+        "techs":["javascript","socketio"],
         "date":"January 1, 2021",
-        "description":"This website is my attempt of giving back what I learned to newcomers. I believe that there are too many conflicting articles on certain topics related to technologies which very easily can confuse a new comer. I want to guide them to the best of my knowledge."
+        "description":"Realtime chat application based on websockets, built using socket.io library."
+    },
+    {
+        "title":"React-AgGrid-Example",
+        "url":"",
+        "gitHubLink": "https://github.com/shaantalk/React-AGGrid-Example",
+        "techs":["javascript","socketio"],
+        "date":"July 25, 2021",
+        "description":"A self study of the AgGrid library and its functionalities like filtering, sorting, pagination, custom renderers etc."
     },
     {
         "title":"Covid 19 Tracker",
-        "url":"https://github.com/shaantalk/covid19tracker",
+        "url":"",
+        "gitHubLink": "https://github.com/shaantalk/covid19tracker",
         "techs":["javascript","react"],
         "date":"April 26, 2020",
         "description":"An app for tracking covid data that are available online from free APIs"
@@ -16,6 +26,7 @@
     {
         "title":"Mini Portfolio",
         "url":"https://github.com/shaantalk/miniportfolio",
+        "gitHubLink": "",
         "techs":["html","bootstrap"],
         "date":"April 26, 2020",
         "description":"Small single page portfolio website. This website is fully responsive and also supports dark mode for chrome and Apple ecosystem."
