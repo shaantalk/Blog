@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.0728b888.chunk.css",
-    "main.js": "/static/js/main.5ccceaed.chunk.js",
-    "main.js.map": "/static/js/main.5ccceaed.chunk.js.map",
+    "main.css": "/static/css/main.426c3cdf.chunk.css",
+    "main.js": "/static/js/main.35050000.chunk.js",
+    "main.js.map": "/static/js/main.35050000.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3ce35d3d.js",
     "runtime-main.js.map": "/static/js/runtime-main.3ce35d3d.js.map",
     "static/js/2.1317d695.chunk.js": "/static/js/2.1317d695.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.72df09f9.chunk.js": "/static/js/3.72df09f9.chunk.js",
     "static/js/3.72df09f9.chunk.js.map": "/static/js/3.72df09f9.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.0728b888.chunk.css.map": "/static/css/main.0728b888.chunk.css.map",
+    "static/css/main.426c3cdf.chunk.css.map": "/static/css/main.426c3cdf.chunk.css.map",
     "static/js/2.1317d695.chunk.js.LICENSE.txt": "/static/js/2.1317d695.chunk.js.LICENSE.txt",
     "static/media/Hero.css": "/static/media/favicon.5e2f21b7.png",
     "static/media/bootstrap.d87c3aa1.png": "/static/media/bootstrap.d87c3aa1.png",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.3ce35d3d.js",
     "static/js/2.1317d695.chunk.js",
-    "static/css/main.0728b888.chunk.css",
-    "static/js/main.5ccceaed.chunk.js"
+    "static/css/main.426c3cdf.chunk.css",
+    "static/js/main.35050000.chunk.js"
   ]
 }
