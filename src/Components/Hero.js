@@ -82,7 +82,7 @@ export default function Hero() {
           <div className='hero__cta'>
             {[
               { name: "Projects", to: "/projects" },
-              { name: "Blogs", to: "/blogs" },
+              { name: "Blogs", to: "blogs/#/" },
             ].map((elem, idx) => (
               <Button
                 key={idx}
