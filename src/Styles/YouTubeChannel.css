@@ -1,0 +1,113 @@
+.youtube-channel {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  .video-list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    margin: 20px 0;
+    scrollbar-width: thin;
+    scrollbar-color: #ddd transparent;
+    /* Center the items in the list */
+    /* justify-content: center;  */
+    /* Add padding to prevent cut-off */
+    /* padding: 0 10px;  */
+  }
+  
+  .video-card {
+    min-width: 250px;
+    max-width: 300px;
+    flex: 0 0 auto;
+    margin: 0 10px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    scroll-snap-align: start;
+    text-decoration: none;
+    color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .video-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .video-details {
+    padding: 15px;
+    background: transparent;
+  }
+  
+  .video-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .channel-title {
+    color: #aaa;
+    font-size: 14px;
+  }
+  
+  .go-to-channel {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .go-to-channel:hover {
+    background-color: #d33b1c;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .video-list {
+      flex-wrap: wrap;
+      align-items: center; /* Center items vertically */
+      /* Center the items in the list */
+      justify-content: center;
+      /* Add padding to prevent cut-off */
+      padding: 0 10px;
+    }
+  
+    .video-card {
+      width: calc(100% - 20px); /* Adjust width to account for margin */
+      margin-bottom: 10px;
+    }
+  }
+  
