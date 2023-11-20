@@ -1,0 +1,18 @@
+name: Set YouTube API Key
+
+on:
+  workflow_run:
+    workflows: ["pages-build-deployment"]
+    types:
+      - completed
+
+jobs:
+  set-api-key:
+    if: github.event.workflow_run.event == 'workflow_run'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set YouTube API Key
+        run: echo "REACT_APP_YOUTUBE_API_KEY=${{ secrets.YOUTUBE_API_KEY }}" >> $GITHUB_ENV
+        env:
+          REACT_APP_YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
